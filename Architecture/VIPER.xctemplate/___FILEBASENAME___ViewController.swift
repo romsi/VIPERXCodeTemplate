@@ -13,7 +13,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController:
 {
 	// MARK: - Property
 
-	var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter?
+	var presenter: ___FILEBASENAMEASIDENTIFIER___ModuleInterface?
 
 	// MARK: - Life cycle
 
