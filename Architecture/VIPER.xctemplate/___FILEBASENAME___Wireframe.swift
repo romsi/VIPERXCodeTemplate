@@ -44,7 +44,7 @@ class ___FILEBASENAMEASIDENTIFIER___Wireframe: NSObject
 
     // MARK: - Presentation
 
-    func presentListInterface(fromWindow window: UIWindow)
+    func presentInterface(fromWindow window: UIWindow)
     {
     	/*
         let viewController = self.viewControllerFromStoryboard()
