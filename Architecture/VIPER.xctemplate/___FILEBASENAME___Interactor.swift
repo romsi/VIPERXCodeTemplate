@@ -12,7 +12,7 @@ class ___FILEBASENAMEASIDENTIFIER___Interactor: NSObject, ___FILEBASENAMEASIDENT
 {
 	// MARK: - Property
     
-    var presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput?
+    var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput?
     lazy var dataManager: ___FILEBASENAMEASIDENTIFIER___DataManager = ___FILEBASENAMEASIDENTIFIER___DataManager()
 
 }
