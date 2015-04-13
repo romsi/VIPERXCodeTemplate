@@ -9,11 +9,12 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController:
-    UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewInterface
+    UIViewController,
+    ___FILEBASENAMEASIDENTIFIER___ViewInterface
 {
 	// MARK: - Property
 
-	var presenter: ___FILEBASENAMEASIDENTIFIER___ModuleInterface?
+	private var presenter: ___FILEBASENAMEASIDENTIFIER___ModuleInterface? = nil
 
 	// MARK: - Life cycle
 

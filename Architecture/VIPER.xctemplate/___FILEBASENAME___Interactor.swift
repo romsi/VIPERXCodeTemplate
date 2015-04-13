@@ -8,12 +8,15 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput
+class ___FILEBASENAMEASIDENTIFIER___Interactor:
+    ___FILEBASENAMEASIDENTIFIER___InteractorInput
 {
 	// MARK: - Property
     
-    var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput?
-    lazy var dataManager: ___FILEBASENAMEASIDENTIFIER___DataManager = ___FILEBASENAMEASIDENTIFIER___DataManager()
+    private var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput? = nil
+    lazy private var dataManager: ___FILEBASENAMEASIDENTIFIER___DataManager = ___FILEBASENAMEASIDENTIFIER___DataManager()
 
     // MARK: - ___FILEBASENAMEASIDENTIFIER___ interactor input interface
+
+    // MARK: - Converting raw datas
 }

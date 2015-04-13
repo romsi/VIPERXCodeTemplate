@@ -8,15 +8,19 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput, ___FILEBASENAMEASIDENTIFIER___ModuleInterface
+class ___FILEBASENAMEASIDENTIFIER___Presenter:
+    ___FILEBASENAMEASIDENTIFIER___ModuleInterface,
+    ___FILEBASENAMEASIDENTIFIER___InteractorOutput
 {
 	// MARK: - Property
     
-    var view: ___FILEBASENAMEASIDENTIFIER___ViewInterface?
-    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput?
-    var wireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe?
+    private var view: ___FILEBASENAMEASIDENTIFIER___ViewInterface? = nil
+    private var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput? = nil
+    private var wireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe? = nil
 
     // MARK: - ___FILEBASENAMEASIDENTIFIER___ module interface
     
     // MARK: - ___FILEBASENAMEASIDENTIFIER___ interactor output interface
+
+    // MARK: - Converting entities
 }

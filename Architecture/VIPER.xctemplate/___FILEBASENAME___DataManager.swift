@@ -13,7 +13,7 @@ class ___FILEBASENAMEASIDENTIFIER___DataManager
 {
 	// MARK: - Property
 
-	let managedObjectContext: NSManagedObjectContext
+	private let managedObjectContext: NSManagedObjectContext
 
 	// MARK: - Life cycle
 

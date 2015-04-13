@@ -14,33 +14,7 @@ class ___FILEBASENAMEASIDENTIFIER___Wireframe
 {
 	// MARK: - Property
 
-    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter? = nil
-
-    // MARK: - Storyboard
-
-    func mainStoryboard() -> UIStoryboard
-    {
-        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle:NSBundle.mainBundle())
-        return storyboard
-    }
-
-    /*
-    func viewControllerFromStoryboard() -> ___FILEBASENAMEASIDENTIFIER___ViewController
-    {
-        let storyboard = self.mainStoryboard()
-        let viewController = storyboard.instantiateViewControllerWithIdentifier(___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier) as ___FILEBASENAMEASIDENTIFIER___ViewController
-        return viewController
-    }
-    */
-
-    /*
-    func navigationControllerFromStoryboard() -> UINavigationController
-    {
-        let storyboard = self.mainStoryboard()
-        let navigationController = storyboard.instantiateViewControllerWithIdentifier(___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier) as UINavigationController
-        return navigationController
-    }
-    */
+    private var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter? = nil
 
     // MARK: - Presentation
 
@@ -58,4 +32,30 @@ class ___FILEBASENAMEASIDENTIFIER___Wireframe
         viewController.presenter = self.presenter
         self.presenter?.view = viewController
     }
+    
+    // MARK: - Storyboard
+    
+    private func mainStoryboard() -> UIStoryboard
+    {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle:NSBundle.mainBundle())
+        return storyboard
+    }
+    
+    /*
+    private func viewControllerFromStoryboard() -> ___FILEBASENAMEASIDENTIFIER___ViewController
+    {
+    let storyboard = self.mainStoryboard()
+    let viewController = storyboard.instantiateViewControllerWithIdentifier(___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier) as ___FILEBASENAMEASIDENTIFIER___ViewController
+    return viewController
+    }
+    */
+    
+    /*
+    private func navigationControllerFromStoryboard() -> UINavigationController
+    {
+    let storyboard = self.mainStoryboard()
+    let navigationController = storyboard.instantiateViewControllerWithIdentifier(___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier) as UINavigationController
+    return navigationController
+    }
+    */
 }
