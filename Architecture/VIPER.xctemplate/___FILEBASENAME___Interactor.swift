@@ -13,7 +13,7 @@ class ___FILEBASENAMEASIDENTIFIER___Interactor:
 {
 	// MARK: - Property
     
-    private var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput? = nil
+    var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput? = nil
     lazy private var dataManager: ___FILEBASENAMEASIDENTIFIER___DataManager = ___FILEBASENAMEASIDENTIFIER___DataManager()
 
     // MARK: - ___FILEBASENAMEASIDENTIFIER___ interactor input interface

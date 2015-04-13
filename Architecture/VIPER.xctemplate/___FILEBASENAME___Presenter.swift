@@ -14,9 +14,9 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter:
 {
 	// MARK: - Property
     
-    private var view: ___FILEBASENAMEASIDENTIFIER___ViewInterface? = nil
-    private var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput? = nil
-    private var wireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe? = nil
+    var view: ___FILEBASENAMEASIDENTIFIER___ViewInterface? = nil
+    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput? = nil
+    var wireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe? = nil
 
     // MARK: - ___FILEBASENAMEASIDENTIFIER___ module interface
     

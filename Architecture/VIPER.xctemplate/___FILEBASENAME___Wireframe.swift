@@ -14,7 +14,7 @@ class ___FILEBASENAMEASIDENTIFIER___Wireframe
 {
 	// MARK: - Property
 
-    private var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter? = nil
+    var presenter: ___FILEBASENAMEASIDENTIFIER___Presenter? = nil
 
     // MARK: - Presentation
 
