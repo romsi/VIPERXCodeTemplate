@@ -26,7 +26,7 @@ class ___FILEBASENAMEASIDENTIFIER___Wireframe
 
     	/*
         let navigationViewController = self.navigationControllerFromStoryboard()
-        let viewController = navigationViewController.viewControllers.first as ___FILEBASENAMEASIDENTIFIER___ViewController
+        if let viewController = navigationViewController.viewControllers.first as? ___FILEBASENAMEASIDENTIFIER___ViewController
         */
 
         viewController.presenter = self.presenter
@@ -45,7 +45,7 @@ class ___FILEBASENAMEASIDENTIFIER___Wireframe
     private func viewControllerFromStoryboard() -> ___FILEBASENAMEASIDENTIFIER___ViewController
     {
     let storyboard = self.mainStoryboard()
-    let viewController = storyboard.instantiateViewControllerWithIdentifier(___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier) as ___FILEBASENAMEASIDENTIFIER___ViewController
+    let viewController = storyboard.instantiateViewControllerWithIdentifier(___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier) as! ___FILEBASENAMEASIDENTIFIER___ViewController
     return viewController
     }
     */
@@ -54,7 +54,7 @@ class ___FILEBASENAMEASIDENTIFIER___Wireframe
     private func navigationControllerFromStoryboard() -> UINavigationController
     {
     let storyboard = self.mainStoryboard()
-    let navigationController = storyboard.instantiateViewControllerWithIdentifier(___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier) as UINavigationController
+    let navigationController = storyboard.instantiateViewControllerWithIdentifier(___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier) as! UINavigationController
     return navigationController
     }
     */
