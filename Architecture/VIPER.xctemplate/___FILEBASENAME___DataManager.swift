@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class ___FILEBASENAMEASIDENTIFIER___DataManager: NSObject
+class ___FILEBASENAMEASIDENTIFIER___DataManager
 {
 	// MARK: - Property
 
@@ -17,11 +17,11 @@ class ___FILEBASENAMEASIDENTIFIER___DataManager: NSObject
 
 	// MARK: - Life cycle
 
-    override init()
+    init()
     {
         let appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
         self.managedObjectContext = appDelegate.managedObjectContext!
-        super.init()
     }
 
+    // MARK: - Data management
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter: NSObject, ___FILEBASENAMEASIDENTIFIER___InteractorOutput
+class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput, ___FILEBASENAMEASIDENTIFIER___ModuleInterface
 {
 	// MARK: - Property
     
@@ -16,4 +16,7 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter: NSObject, ___FILEBASENAMEASIDENTI
     var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput?
     var wireframe: ___FILEBASENAMEASIDENTIFIER___Wireframe?
 
+    // MARK: - ___FILEBASENAMEASIDENTIFIER___ module interface
+    
+    // MARK: - ___FILEBASENAMEASIDENTIFIER___ interactor output interface
 }

@@ -10,7 +10,7 @@ import UIKit
 
 let ___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier: String = "___FILEBASENAMEASIDENTIFIER___ViewController"
 
-class ___FILEBASENAMEASIDENTIFIER___Wireframe: NSObject
+class ___FILEBASENAMEASIDENTIFIER___Wireframe
 {
 	// MARK: - Property
 
@@ -58,5 +58,4 @@ class ___FILEBASENAMEASIDENTIFIER___Wireframe: NSObject
         viewController.presenter = self.presenter
         self.presenter?.view = viewController
     }
-
 }
