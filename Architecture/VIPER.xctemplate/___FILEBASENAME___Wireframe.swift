@@ -6,7 +6,7 @@
 //___COPYRIGHT___
 //
 
-import UIKit
+import Foundation
 
 let ___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier: String = "___FILEBASENAMEASIDENTIFIER___ViewController"
 

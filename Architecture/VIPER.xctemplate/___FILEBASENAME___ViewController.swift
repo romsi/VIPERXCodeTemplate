@@ -6,7 +6,7 @@
 //___COPYRIGHT___
 //
 
-import UIKit
+import Foundation
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController:
     UIViewController,
