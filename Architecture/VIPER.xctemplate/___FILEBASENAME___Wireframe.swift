@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 let ___FILEBASENAMEASIDENTIFIER___ViewControllerIdentifier: String = "___FILEBASENAMEASIDENTIFIER___ViewController"
 
